@@ -16,8 +16,8 @@ A simple laptop (windows, linux or mac) is all you need for this project, as we 
 - An image dataset is a folder containing images of our target object for which we want to train YOLOv3. There must be a minimum of 100 images that contains the target object. For example I have trained YOLOv3 to recognize Jets, so I have made a dataset comprising of 402 images while each image contains atleast one Jet.
 - Secondly, we need object location in each image that is exactly where the object/objects are located in each images. For this purpose, we need to label each image from our training dataset. An external software will be used for image labeling, that is, "LabelImg". You can download it for Windows/Linux from https://tzutalin.github.io/labelImg/ 
 - LabelImg Usage:
-  - Once we run LabelImg let’s click on “Open Dir”.
-  - We choose the folder where the images are located
-  - Then we click on “Select folder”
-  - We then click on “Change save dir”.
-
+  - Run LabelImg then click on "Open Dir" and choose the folder where the training dataset is located.
+  - For "Change save dir", choose the same training dataset folder.
+  - Then select saving format which by default is "PascalVOC" click to change it to "YOLO" format.
+  - For labeling the object, click "Create RectBox" and select the area where the target object is located. Then add the label by giving object name (which in our case is Jet).
+  - Then click on "Save" which will generate a .txt for the respective image. Do this for whole training dataset. 
