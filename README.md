@@ -29,7 +29,7 @@ A simple laptop (windows, linux or mac) is all you need for this project, as we 
   - Log in to your google account and go to google drive.
   - Create a folder, by naming it "yolov3" and upload the images.zip that we prepared earlier to yolov3 folder.
 - Set up google colab:
-  - 
+  - Upload "Train_YoloV3"
  
 Go on google colab and log in with the same account you used to log in on google drive.
 Upload this file “Train_YoloV3.ipynb”
