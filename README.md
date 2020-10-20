@@ -20,4 +20,12 @@ A simple laptop (windows, linux or mac) is all you need for this project, as we 
   - For "Change save dir", choose the same training dataset folder.
   - Then select saving format which by default is "PascalVOC" click to change it to "YOLO" format.
   - For labeling the object, click "Create RectBox" and select the area where the target object is located. Then add the label by giving object name (which in our case is Jet).
-  - Then click on "Save" which will generate a .txt for the respective image. Do this for whole training dataset. 
+  - Then click on "Save" which will generate a .txt for the respective image. Do this for the complete training dataset.
+  - Finally, rename this training dataset folder to "images" and compress to get images.zip
+
+#### 2. Training online using Google Colab
+- Google Colab will be used for the training of YOLOv3. It provides a free service as well as a pro service that can be only used when you pay for it. In our case the free service provided is sufficient enough to train YOLOv3 on our custom dataset. The only disadvantage that I noted is that one can only use it for 12 hours in a single go, after that you will be disconnected and the files will deleted. Though, this problem is solved with help of the falgs in training time. YOLOv3 while training saves weights so even the training is interrupted we can resume training from last saved weights.
+- Set up google drive:
+  - Log in to your google account and go to google drive.
+  - Create a folder, by naming it "yolov3" and upload the images.zip that we prepared earlier to yolov3 folder.
+- Set up google colab:
