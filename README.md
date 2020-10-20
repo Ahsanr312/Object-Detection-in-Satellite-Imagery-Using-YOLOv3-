@@ -29,3 +29,9 @@ A simple laptop (windows, linux or mac) is all you need for this project, as we 
   - Log in to your google account and go to google drive.
   - Create a folder, by naming it "yolov3" and upload the images.zip that we prepared earlier to yolov3 folder.
 - Set up google colab:
+  - 
+ 
+Go on google colab and log in with the same account you used to log in on google drive.
+Upload this file “Train_YoloV3.ipynb”
+n.b. You can get this file by clicking on “Click here to download the Source code” at the beginning of the post.
+Then we need to enable the GPU. So click on “Edit”.
