@@ -13,4 +13,4 @@ A simple laptop (windows, linux or mac) is all you need for this project, as we 
 #### STEPS TO FOLLOW:
 
 ##### 1. Dataset Preparation 
-- An image dataset is a folder containing a lot of images (I suggest to get at least 100 of them) where there is the custom object you want to detect. For example I’m training YOLO to recognize a Koala, so I have downloaded around 350 images containing Koalas.
+- An image dataset is a folder containing images of our target object for which we want to train YOLOv3. There must be a minimum of 100 images that contains the target object. For example I have trained YOLOv3 to recognize Jets, so I have made a dataset comprising of 402 images while each image contains atleast one Jet.
