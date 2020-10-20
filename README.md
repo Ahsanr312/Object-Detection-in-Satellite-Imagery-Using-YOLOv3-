@@ -1,4 +1,4 @@
-# Object-Detection-in-Satellite-Imagery-Using-YOLOv3-
+# Object-Detection-in-Satellite-Imagery-Using-YOLOv3
 This repository provides the experimentation of Object Detection in Satellite Imagery using YOLOv3.
 A simple laptop (windows, linux or mac) is all you need for this project, as we will be using Google Colab for training and testing purpose.
 
@@ -29,9 +29,7 @@ A simple laptop (windows, linux or mac) is all you need for this project, as we 
   - Log in to your google account and go to google drive.
   - Create a folder, by naming it "yolov3" and upload the images.zip that we prepared earlier to yolov3 folder.
 - Set up google colab:
-  - Upload "Train_YoloV3"
- 
-Go on google colab and log in with the same account you used to log in on google drive.
-Upload this file “Train_YoloV3.ipynb”
-n.b. You can get this file by clicking on “Click here to download the Source code” at the beginning of the post.
-Then we need to enable the GPU. So click on “Edit”.
+  - Upload "Train_YOLOv3.ipynb" file to the same yolov3 folder on google drive by first downloading it.
+  - After successful upload, right click on the "Train_YOLOv3.ipynb" file and select open with -> Google Colaboratory. The file will opened in the colab.
+  - Next, we need to choose GPU for our training. To do so, click on "Edit" and select "Notebook settings" and then choose "GPU" under Hardware accelerator option. 
+  - Press "save" and you are good to go.
