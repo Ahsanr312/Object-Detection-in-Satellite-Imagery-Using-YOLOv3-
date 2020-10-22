@@ -41,7 +41,7 @@ A simple laptop (windows, linux or mac) is all you need for this project, as we 
 - Once the anchor boxes are calculated replace them in your yolov3_training cfg file.
 - Cfg file parameters:
   - width & height represents network resolution. If your training dataset is contains 416x416 dimension images and the network resolution is set to 608x608 then all your dataset will be resized to 608x608 for training. So be careful what you choose before training your model. Network resolution must be set to a multiple of 32 i.e. 416, 448, ..., 608, 640, ... . The higher the network resolution the better the precision of your model.
-  - classes = number of classes, that must be set it in each of the 3 yolo layers
+  - classes = number of classes, that must be set in each of the 3 yolo layers
   - max_batches: must be set to classesx2000 or more
   - filters: (classes + 5)x3, set it in the 3 convolutional layers before each yolo layer
   - random: should be set to 1. It will increase precision by training Yolo for different resolutions
