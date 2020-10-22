@@ -34,7 +34,9 @@ A simple laptop (windows, linux or mac) is all you need for this project, as we 
   - Next, we need to choose GPU for our training. To do so, click on "Edit" and select "Notebook settings" and then choose "GPU" under Hardware accelerator option. 
   - Press "save" and you are good to go.
   - Now run each cell one by one and wait for the first cell to complete the execution. (You can run all cells together by clicking "Runtime" and then selecting "Run all" but I recommend run one cell at a time and check the output and play around)
+  - This notebook is created for training YOLOv3 for only one object. But you can do it for as much objects as you desire by changing some parameters.
   
-
+#### 3. Important Training Steps/Parameters:
+- 
 
 
