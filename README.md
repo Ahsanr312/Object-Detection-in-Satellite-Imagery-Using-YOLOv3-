@@ -1,10 +1,10 @@
 # Object-Detection-in-Satellite-Imagery-Using-YOLOv3
 This repository provides the experimentation of Object Detection in Satellite Imagery using YOLOv3.
-A simple laptop (windows, linux or mac) is all you need for this project, as we will be using Google Colab for training and testing purpose.
+A simple laptop (windows, linux or mac) is all you need for this project, as we will be using Google Colab for training and testing purpose. 
 
 ### Original Repository: https://github.com/AlexeyAB/darknet
 
-### Paper Yolo v3: https://arxiv.org/abs/1804.02767
+### Yolov3 Paper: https://arxiv.org/abs/1804.02767
 
 ### About Darknet framework: http://pjreddie.com/darknet/
 
@@ -33,3 +33,8 @@ A simple laptop (windows, linux or mac) is all you need for this project, as we 
   - After successful upload, right click on the "Train_YOLOv3.ipynb" file and select open with -> Google Colaboratory. The file will opened in the colab.
   - Next, we need to choose GPU for our training. To do so, click on "Edit" and select "Notebook settings" and then choose "GPU" under Hardware accelerator option. 
   - Press "save" and you are good to go.
+  - Now run each cell one by one and wait for the first cell to complete the execution. (You can run all cells together by clicking "Runtime" and then selecting "Run all" but I recommend run one cell at a time and check the output and play around)
+  
+
+
+
