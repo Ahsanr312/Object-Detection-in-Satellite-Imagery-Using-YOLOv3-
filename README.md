@@ -1,6 +1,5 @@
 # Object-Detection-in-Satellite-Imagery-Using-YOLOv3
-This repository provides the experimentation of Object Detection in Satellite Imagery using YOLOv3.
-A simple laptop (windows, linux or mac) is all you need for this project, as we will be using Google Colab for training and testing purpose. 
+This repository provides the insight of object detection in Satellite Imagery using YOLOv3. As in satellite imagery the objects are in fewer number of pixels and varies in number of pixels depending on high/low resolution imagery. Hence, some crucial changes are required that are discussed in the repository to detect target objects in satellite imagery. A simple laptop (windows, linux or mac) is all you need for this project, as we will be using Google Colab for training and testing purpose.
 
 ### Original Repository: https://github.com/AlexeyAB/darknet
 
