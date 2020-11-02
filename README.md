@@ -12,14 +12,14 @@ This repository provides the insight of object detection in Satellite Imagery us
 ### STEPS TO FOLLOW:
 
 #### 1. Dataset Preparation 
-- An image dataset is a folder containing images of our target object for which we want to train YOLOv3. There must be a minimum of 100 images that contains the target object. For example I have trained YOLOv3 to recognize Jets, so I have made a dataset comprising of 402 images while each image contains atleast one Jet.
+- An image dataset is a folder containing images of our target object for which we want to train YOLOv3. There must be a minimum of 100 images that contains the target object. For example I have trained YOLOv3 to recognize Target object, so I have made a dataset comprising of 402 images while each image contains atleast one Target object.
 - Secondly, we need object location in each image that is exactly where the object/objects are located in each images. For this purpose, we need to label each image from our training dataset. An external software will be used for image labeling, that is, "LabelImg". You can download it for Windows/Linux from https://tzutalin.github.io/labelImg/ 
 - It is a good practice that your training dataset includes images that have objects which we do not want to detect or objects that have key similarities with our target object. This will lead our model to better learn the difference and won't generate false alarms. These images are called negative samples and we should add them with their respective label text file i.e. (empty .txt file). Optimal practice would be adding the same number of positve and negative samples but if not possible low number of negative samples would have an impact too. 
 - LabelImg Usage:
   - Run LabelImg then click on "Open Dir" and choose the folder where the training dataset is located.
   - For "Change save dir", choose the same training dataset folder.
   - Then select saving format which by default is "PascalVOC" click to change it to "YOLO" format.
-  - For labeling the object, click "Create RectBox" and select the area where the target object is located. Then add the label by giving object name (which in our case is Jet).
+  - For labeling the object, click "Create RectBox" and select the area where the target object is located. Then add the label by giving object name (which in our case is Target Object).
   - Then click on "Save" which will generate a .txt for the respective image. Do this for the complete training dataset.
   - Finally, rename this training dataset folder to "images" and compress to get images.zip
 
