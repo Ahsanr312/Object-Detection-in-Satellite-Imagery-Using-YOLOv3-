@@ -41,8 +41,8 @@ This repository provides the insight of object detection in Satellite Imagery us
   - random: should be set to 1. It will increase precision by training Yolo for different resolutions
 
 #### CREDIT: 
-### Original Repository: https://github.com/AlexeyAB/darknet
+#### Original Repository: https://github.com/AlexeyAB/darknet
 
-### Yolov3 Paper: https://arxiv.org/abs/1804.02767
+#### Yolov3 Paper: https://arxiv.org/abs/1804.02767
 
-### About Darknet framework: http://pjreddie.com/darknet/
+#### Darknet framework: http://pjreddie.com/darknet/
