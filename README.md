@@ -1,12 +1,6 @@
 # Object-Detection-in-Satellite-Imagery-Using-YOLOv3
 This repository provides the insight of object detection in Satellite Imagery using YOLOv3. As in satellite imagery the objects are in fewer number of pixels and varies in number of pixels depending on high/low resolution imagery. Hence, some crucial changes are required that are discussed in the repository to detect target objects in satellite imagery. A simple laptop (windows, linux or mac) is all you need for this project, as we will be using Google Colab for training and testing purpose.
 
-### Original Repository: https://github.com/AlexeyAB/darknet
-
-### Yolov3 Paper: https://arxiv.org/abs/1804.02767
-
-### About Darknet framework: http://pjreddie.com/darknet/
-
 ### Dataset: Will be shared on request {ahsanr4@gmail.com}
 
 ### STEPS TO FOLLOW:
@@ -45,3 +39,10 @@ This repository provides the insight of object detection in Satellite Imagery us
   - max_batches: must be set to classesx2000 or more
   - filters: (classes + 5)x3, set it in the 3 convolutional layers before each yolo layer
   - random: should be set to 1. It will increase precision by training Yolo for different resolutions
+
+#### CREDIT: 
+### Original Repository: https://github.com/AlexeyAB/darknet
+
+### Yolov3 Paper: https://arxiv.org/abs/1804.02767
+
+### About Darknet framework: http://pjreddie.com/darknet/
