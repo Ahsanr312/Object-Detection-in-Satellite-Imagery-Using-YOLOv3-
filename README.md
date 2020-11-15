@@ -40,7 +40,7 @@ This repository provides the insight of object detection in Satellite Imagery us
   - filters: (classes + 5)x3, set it in the 3 convolutional layers before each yolo layer
   - random: should be set to 1. It will increase precision by training Yolo for different resolutions
 
-#### CREDIT: 
+### CREDIT: 
 #### Original Repository: https://github.com/AlexeyAB/darknet
 
 #### Yolov3 Paper: https://arxiv.org/abs/1804.02767
